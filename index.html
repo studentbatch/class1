@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <!-- cdn jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- cdn jquery -->
+    <style>
+#p{
+    display: none;
+}
+    </style>
+</head>
+
+<body >
+   <button id="btn">click</button>
+   <p id="p">S ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel consectetur alias totam officia, earum rerum optio facere aliquam perspiciatis odit accusantium at. Voluptas rerum consectetur molestias tenetur similique animi.</p>
+
+   <p id="a">A ipsum dolor sit amet consectetur adipisicing elit. Quas, eos dolor ut ipsa perspiciatis fugiat molestiae reiciendis sapiente provident iusto unde, corporis ipsam quod est illum debitis possimus, accusantium odit?</p>
+    <script>
+        //  jquery topic 
+        // focus,blur / hide,show
+
+        $(document).ready(function () {
+            $("#btn").click(function () {
+$("#p").fadeIn(1000)
+            })
+            $("#btn").click(function () {
+$("#a").fadeOut(1000)
+            })
+
+
+
+        })
+    </script>
+
+</body>
+
+</html>
