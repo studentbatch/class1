@@ -1,5 +1,3 @@
 # class1
-<table border="1px">
-<th>id</th>
-  <td>sds</td>
-</table>
+<br/>
+Site URL https://studentbatch.github.io/class1/
